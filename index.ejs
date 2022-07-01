@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Charm Hunter</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+    integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
+  <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+  <style>
+    td,
+    th {
+      border: 1px solid lightgray;
+    }
+
+    table {
+      width: 100%;
+    }
+
+    input {
+      width: 100%;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Charm Hunter</h1>
+
+  <table>
+    <tr>
+      <th>Skill 1</th>
+      <th>point</th>
+      <th>Skill 2</th>
+      <th>point</th>
+      <th>Slot Count</th>
+    </tr>
+
+    <tr>
+      <td>
+        <input list="skills" name="skill" id="skill">
+        <datalist id="skills">
+          <% for(var i=0; i < skills.length; i++) { %>
+            <option value='<%= skills[i] %>'>
+              <%= skills[i] %>
+            </option>
+            <% } %>
+        </datalist>
+      </td>
+
+      <td>
+        <select name="skillLevel" id="skillLevel">
+          <% for(var i=0; i < numbers.length; i++) { %>
+            <option value='<%= numbers[i] === 0 ? '' : numbers[i] %>'>
+              <%= numbers[i] %>
+            </option>
+            <% } %>
+        </select>
+      </td>
+
+      <td>
+        <input list="skills2" name="skill2" id="skill2">
+        <datalist id="skills2">
+          <% for(var i=0; i < skills.length; i++) { %>
+            <option value='<%= skills[i] %>'>
+              <%= skills[i] %>
+            </option>
+            <% } %>
+        </datalist>
+      </td>
+
+      <td>
+        <select name="skill2Level" id="skill2Level">
+          <% for(var i=0; i < numbers.length; i++) { %>
+            <option value='<%= numbers[i] === 0 ? '' : numbers[i] %>'>
+              <%= numbers[i] %>
+            </option>
+            <% } %>
+        </select>
+      </td>
+
+      <td>
+        <select name="slot" id="slot">
+          <% for(var i=0; i < slot.length; i++) { %>
+            <option value='<%= slot[i] %>'>
+              <%= slot[i] %>
+            </option>
+            <% } %>
+        </select>
+      </td>
+    </tr>
+  </table>
+
+  <button onclick="getSkills()">Add Charm</button>
+  </p>
+
+  <table>
+    <tr>
+      <th>No</th>
+      <th>Skill 1</th>
+      <th>point</th>
+      <th>Skill 2</th>
+      <th>point</th>
+      <th>Slot Count</th>
+    </tr>
+
+    <% for(var i=charms.length - 1; i> 0; i--) { var charm=charms[i].split(',') %>
+      <tr>
+        <td>
+          <%= i %>
+        </td>
+        <td>
+          <%= charm[1] %>
+        </td>
+        <td>
+          <%= charm[2] %>
+        </td>
+        <td>
+          <%= charm[3] %>
+        </td>
+        <td>
+          <%= charm[4] %>
+        </td>
+        <td>
+          <%= charm[0] %>
+        </td>
+      </tr>
+      <% } %>
+  </table>
+
+  <script>
+    function getSkills() {
+      var skills = document.getElementById('skill').value
+      var skills2 = document.getElementById('skill2').value
+      var skillLevel = document.getElementById('skillLevel').value
+      var skill2Level = document.getElementById('skill2Level').value
+      var slot = document.getElementById('slot').value
+
+      console.warn(`/mycharm?charm=${slot},${skills},${skillLevel},${skills2},${skill2Level}`)
+
+      Promise.all([fetch(`/mycharm?charm=${slot},${skills},${skillLevel},${skills2},${skill2Level}`)]).then(() => {
+      })
+      window.location.href = '/'
+    }
+  </script>
+</body>
+
+</html>
