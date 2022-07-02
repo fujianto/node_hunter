@@ -1,12 +1,10 @@
 var fs = require('fs');
 const os = require("os");
-
+const axios = require('axios');
 const express = require('express')
 const app = express()
 const port = 3000
 const skills = fs.readFileSync('./skills.txt',
-  { encoding: 'utf8', flag: 'r' });
-const charms = fs.readFileSync('./mycharms.txt',
   { encoding: 'utf8', flag: 'r' });
 
 app.set('view engine', 'ejs');
@@ -19,11 +17,11 @@ app.get('/', (req, res) => {
   var arrSlot = Array.from(Array(4).keys())
   var arrNeg = arrPos.map(i => -i)
   var arrNumbers = [...arrNeg, ...arrPos]
-  res.render(__dirname + "/index", { skills: skills.split("\n"), charms: charms.split("\n"), numbers: arrNumbers, slot: arrSlot })
+  res.render(__dirname + "/index", { skills: skills.split("\n"), charms: charms.split("\n"), numbers: arrNumbers, slot: arrSlot})
 })
 
 function isDuplicate(item, source) {
-  for (var i = 1; i < source.length - 1; i++) {
+  for (var i = 0; i < source.length; i++) {
     if (item === source[i]) {
       return true
     }
@@ -44,16 +42,18 @@ function processInput(text) {
 }
 
 app.get('/mycharm', (req, res) => {
-  var newCharm = req.query.charm
+  const charms = fs.readFileSync('./mycharms.txt',
+    { encoding: 'utf8', flag: 'r' });
   var charmList = charms.split("\r\n")
-
-  if (!isDuplicate(newCharm, charmList)) {
-    processInput(newCharm)
+  if (!isDuplicate(req.query.charm, charmList)) {
+   processInput(req.query.charm, charmList)
   } else {
-    console.log(`charm exist`)
+    res.json({
+      message: 'Charm Exists'
+    })
   }
 })
 
 app.listen(port, () => {
-  console.log(`Example app listening on port ${port}`)
+  console.log(`app listening on port ${port}`)
 })
