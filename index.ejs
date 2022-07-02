@@ -29,7 +29,7 @@
 
 <body>
   <h1>Charm Hunter</h1>
-
+  <p><%= message %></p>
   <table>
     <tr>
       <th>Skill 1</th>
@@ -44,20 +44,20 @@
         <input list="skills" name="skill" id="skill">
         <datalist id="skills">
           <% for(var i=0; i < skills.length; i++) { %>
-            <option value='<%= skills[i] %>'>
-              <%= skills[i] %>
-            </option>
-            <% } %>
+          <option value='<%= skills[i] %>'>
+            <%= skills[i] %>
+          </option>
+          <% } %>
         </datalist>
       </td>
 
       <td>
         <select name="skillLevel" id="skillLevel">
           <% for(var i=0; i < numbers.length; i++) { %>
-            <option value='<%= numbers[i] === 0 ? '' : numbers[i] %>'>
-              <%= numbers[i] %>
-            </option>
-            <% } %>
+          <option value='<%= numbers[i] === 0 ? '' : numbers[i] %>'>
+            <%= numbers[i] %>
+          </option>
+          <% } %>
         </select>
       </td>
 
@@ -65,30 +65,30 @@
         <input list="skills2" name="skill2" id="skill2">
         <datalist id="skills2">
           <% for(var i=0; i < skills.length; i++) { %>
-            <option value='<%= skills[i] %>'>
-              <%= skills[i] %>
-            </option>
-            <% } %>
+          <option value='<%= skills[i] %>'>
+            <%= skills[i] %>
+          </option>
+          <% } %>
         </datalist>
       </td>
 
       <td>
         <select name="skill2Level" id="skill2Level">
           <% for(var i=0; i < numbers.length; i++) { %>
-            <option value='<%= numbers[i] === 0 ? '' : numbers[i] %>'>
-              <%= numbers[i] %>
-            </option>
-            <% } %>
+          <option value='<%= numbers[i] === 0 ? '' : numbers[i] %>'>
+            <%= numbers[i] %>
+          </option>
+          <% } %>
         </select>
       </td>
 
       <td>
         <select name="slot" id="slot">
           <% for(var i=0; i < slot.length; i++) { %>
-            <option value='<%= slot[i] %>'>
-              <%= slot[i] %>
-            </option>
-            <% } %>
+          <option value='<%= slot[i] %>'>
+            <%= slot[i] %>
+          </option>
+          <% } %>
         </select>
       </td>
     </tr>
@@ -108,27 +108,27 @@
     </tr>
 
     <% for(var i=charms.length - 1; i> 0; i--) { var charm=charms[i].split(',') %>
-      <tr>
-        <td>
-          <%= i %>
-        </td>
-        <td>
-          <%= charm[1] %>
-        </td>
-        <td>
-          <%= charm[2] %>
-        </td>
-        <td>
-          <%= charm[3] %>
-        </td>
-        <td>
-          <%= charm[4] %>
-        </td>
-        <td>
-          <%= charm[0] %>
-        </td>
-      </tr>
-      <% } %>
+    <tr>
+      <td>
+        <%= i %>
+      </td>
+      <td>
+        <%= charm[1] %>
+      </td>
+      <td>
+        <%= charm[2] %>
+      </td>
+      <td>
+        <%= charm[3] %>
+      </td>
+      <td>
+        <%= charm[4] %>
+      </td>
+      <td>
+        <%= charm[0] %>
+      </td>
+    </tr>
+    <% } %>
   </table>
 
   <script>
@@ -141,9 +141,9 @@
 
       console.warn(`/mycharm?charm=${slot},${skills},${skillLevel},${skills2},${skill2Level}`)
 
-      Promise.all([fetch(`/mycharm?charm=${slot},${skills},${skillLevel},${skills2},${skill2Level}`)]).then(() => {
-      })
-      window.location.href = '/'
+      fetch(`/mycharm?charm=${slot},${skills},${skillLevel},${skills2},${skill2Level}`)
+        .then(response => response.json())
+        .then(data => alert(data.message));
     }
   </script>
 </body>
