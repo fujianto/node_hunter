@@ -6,11 +6,6 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Charm Hunter</title>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
-    integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
-    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-  <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
-  <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
   <style>
     td,
     th {
@@ -28,8 +23,8 @@
 </head>
 
 <body>
-  <h1>Charm Hunter</h1>
-
+  <h1>Charm Hunter <button onclick="window.location.reload()">Reload</button></h1>
+  
   <table>
     <tr>
       <th>Skill 1</th>
@@ -94,7 +89,7 @@
     </tr>
   </table>
 
-  <button onclick="getSkills()">Add Charm</button>
+  <button onclick="addCharm()">Add Charm</button>
   </p>
 
   <table>
@@ -132,6 +127,14 @@
   </table>
 
   <script>
+    function addCharm() {
+      getSkills()
+
+      setTimeout(() => {
+        window.location.reload()
+      }, 300);
+    }
+
     function getSkills() {
       var skills = document.getElementById('skill').value
       var skills2 = document.getElementById('skill2').value
