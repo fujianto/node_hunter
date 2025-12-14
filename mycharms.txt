@@ -1,208 +1,200 @@
 #Format: Slots,Skill1,Points1,Skill2,Points2
-1,Artillery,6,,
-0,Attack,3,Wide-Range,10
-0,Bind Res,6,Mounting,6
-1,Blight Res,7,,
-1,Blunt,5,,
-0,Blunt,4,Attack,6
-0,Bomb Boost,4,Ranger,9
-0,Charmer,6,Hero Shield,-1
-2,ColdBlooded,2,Attack,2
-0,Crit Element,3,Drilltusk,1
-1,Distance Runner,5,Crit Draw,1
-0,Dragon Atk,7,,
-1,Dragon Atk,6,,
-0,Endurance,4,Elderfrost X,2
-0,Endurance,1,Expert,5
-2,Evade Dist,3,Carving,-2
-0,Evasion,6,Gloves Off,3
-0,Evasion,6,Gloves Off,3
-1,Evasion,6,Hellblade,1
-1,Evasion,6,Hellblade,1
-0,Expert,4,Attack,3
-2,FastCharge,5,Hero Shield,-3
-2,FastCharge,5,Hero Shield,-3
-1,FastCharge,4,,
-0,FastCharge,3,Artillery,8
-0,FastCharge,3,Artillery,8
-2,Fire Atk,6,,
-2,Fire Atk,6,Para C+,-3
-2,Fire Atk,6,Tenderizer,2
-0,Fire Atk,6,Tenderizer,2
-0,Gathering,10,,
-1,Guard Up,5,,
-0,Guard Up,5,Health,13
-0,Guard Up,4,Rec Level,3
-2,Guard Up,3,Dead Eye,-4
-0,Health,6,Speed Setup,4
-0,Hearing,7,Heavy Up,1
-0,Hearing,5,,
-0,Ice Atk,6,Psychic,-6
+2,Protection,4,Ammo Saver,6
 0,Ice Atk,5,Ammo Saver,5
-0,Ice Res,4,Expert,6
-0,KO,6,Evasion,3
-3,Light Eater,2,Fencing,2
-1,Normal Up,4,Status,2
-0,Normal Up,2,,
-0,Pellet Up,5,Health,-2
-0,Prolong SP,7,Crystalbeard X,1
-0,Prolong SP,6,Stam Recov,4
-0,Protection,7,Crit Draw,2
-0,Rec Speed,6,Combo Rate,10
-0,Rec Speed,6,Combo Rate,10
-2,Recoil,4,Stam Drain,3
-2,Reload Spd,6,,
-0,Reload Spd,5,Handicraft,5
-0,Reload Spd,5,Handicraft,5
-3,Reload Spd,1,Tenderizer,2
-0,Sharpness,5,Handicraft,5
-0,Sharpness,5,Handicraft,5
-0,Sharpness,4,,
-1,Sharpness,4,Dreadqueen,-1
-2,Sharpness,3,Health,-5
-1,Sharpness,1,Punish Draw,5
-1,Sheathing,6,Handicraft,4
-1,Sheathing,6,Handicraft,4
-0,Sheathing,6,Whim,2
-2,Sheathing,5,Unscathed,-1
-0,Sheathing,2,Pellet Up,2
-0,Sleep,5,,
-0,Sleep,5,,
-0,Stam Recov,6,Perception,2
-0,Stam Recov,5,Haphazard,9
-1,Stam Recov,5,Perception,6
-1,Tenderizer,4,Nightcloak,1
-1,Tenderizer,4,Nightcloak,1
-0,Thunder Atk,7,,
-0,Transporter,8,,
-0,Transporter,6,Botany,7
-2,Transporter,5,Dragon Res,-1
-0,Tremor Res,5,Furor,4
-3,Vault,5,,
-3,Vault,5,,
-0,Vault,5,Guard Up,2
-3,Vault,4,,
-3,Vault,4,Light Eater,1
-0,Vault,4,Thunder Atk,13
-3,Vault,5,,
-0,Reload Spd,5,Handicraft,5
-0,Sharpness,5,Handicraft,5
-1,Sheathing,6,Handicraft,4
-2,Ice Atk,6,Water Atk,2
-2,Water Atk,7,Constitution,2
-2,Destroyer,6,Pellet Up,-2
-0,Chain Crit,5,Attack,-6
-0,Chain Crit,5,Grimclaw X,3
-2,Rapid Fire,5,Distance Runner,-1
-2,Blunt,3,,
-0,Charmer,7,Stam Recov,5
-0,Dragon Atk,6,Charmer,10
-3,Sharpness,6,Vault,-1
-3,Pierce Up,6,Reload Spd,-1
-3,Loading,2,Chain Crit,3
-3,Bubble,5,Reload Spd,5
-3,Guard,6,Attack,-2
-3,Guard Up,3,Sheathing,3
-3,Chance,2,Sharpness,6
-3,Hero Shield,5,,
-3,Status,3,,
-3,Sheathing,6,,
-3,Tenderizer,2,Vault,-1
-3,Ice Atk,7,Stun,7
-3,Sharpness,2,Mounting,5
-3,Blunt,4,,
-3,Pellet Up,3,Elderfrost,-3
-2,Blunt,6,,
-3,Crit Draw,5,Thunder Atk,3
-3,Stam Recov,4,Maestro,5
-3,Crisis,6,,
-3,Status,4,Bladescale,-2
-3,Crit Element,1,Furor,5
-2,Destroyer,6,Pellet Up,-2
-2,Guts,5,Stamina,-2
-2,Vault,6,Sharpness,4
-2,Hearing,5,Defense,-3
-2,Elemental,5,Negative Crit,-3
-2,Status,4,Thunder Atk,4
-2,Normal Up,5,Soulseer X,-1
-2,Pellet Up,5,Water Atk,-5
-2,Tenderizer,5,Heavy Up,-1
-2,Chain Crit,3,Negative Crit,-2
-2,Water Atk,7,Constitution,3
-2,Sheathe Sharpen,2,Punish Draw,5
-2,Tenderizer,5,,
-2,Evade Dist,5,Sheathing,-3
-1,Sheathe Sharpen,6,Sheathing,5
-1,Tenderizer,6,Bubble,1
-1,Bubble,5,Pellet Up,3
-1,Guard,4,Dragon Atk,13
-1,KO,9,Loading,3
-1,Elemental,7,Sharpener,-5
-1,Status,7,Maestro,-1
-1,Sheathing,8,Dragon Atk,3
-1,Pierce Up,3,Attack,4
-1,Pierce Up,4,Dead Eye,4
-0,Hearing,4,Destroyer,4
-0,HotBlooded,7,Evade Dist,4
-0,Crit Draw,4,Handicraft,4
-0,Punish Draw,5,Stonefist X,3
-0,Punish Draw,3,Snowbaron X,3
-0,Pierce Up,6,Stam Drain,9
-0,Rapid Fire,5,Pierce Up,5
-0,Crit Element,6,Critical Up,3
-0,Crit Element,6,Dreadqueen X,3
-0,FastCharge,5,Fire Atk,13
-0,Evade Dist,5,Critical Up,4
-0,Bubble,5,Crystalbeard X,3
-0,Guard,7,Mounting,4
-0,KO,10,Crystalbeard X,1
-0,Endurance,5,Mycology,5
-0,Hearing,7,,
-0,Recoil,2,Ice Atk,9
-0,Ice Atk,7,Silverwind,3
+3,Heavy Up,5,Ammo Saver,-2
 0,Normal Up,3,Artillery,10
-0,Charmer,7,Dreadking,3
-3,Hearing,4,,
-3,Hearing,5,Potential,-2
-2,Hearing,6,,
-2,Wind Res,10,Boltreaver X,3
-0,Wind Res,6,Protection,10
-3,ColdBlooded,4,,
-3,Frenzy Res,5,Nightcloak X,2
-3,Biology,8,,
-0,Biology,7,Fire Atk,10
-0,Biology,5,Dragon Atk,13
-0,Elemental,3,Fire Atk,12
-3,Status,7,Expert,-2
-3,Status,5,,
-3,Fencing,4,Capturer,-2
-2,Grinder,4,,
-0,Crit Draw,5,Water Atk,13
 0,Crit Draw,5,Artillery,9
-3,Crit Draw,4,,
-0,Punish Draw,5,Sharpness,5
-0,Punish Draw,5,Tenderizer,5
-2,Sheathing,10,,
-2,Sheathing,9,Destroyer,5
-3,Sheathing,9,,
-2,Sheathing,1,Charmer,10
-2,Sheathe Sharpen,10,Dead Eye,4
-3,Reload Spd,6,,
-3,Recoil,4,,
-0,Normal Up,6,Ice Atk,13
-3,Pellet Up,6,,
-1,Rapid Fire,5,Thunder Atk,5
-3,Rapid Fire,4,,
-1,Dead Eye,5,Dragon Atk,13
-0,Loading,5,Fire Atk,11
-0,Loading,4,Critical Up,5
-0,Tenderizer,5,Ice Atk,10
-3,Chain Crit,3,Pierce Up,5
-2,Crit Status,5,,
-3,Stam Recov,6,Mycology,1
-0,Stam Recov,4,Mounting,10
-3,Unscathed,4,,
-3,Potential,2,Critical Up,5
-3,Guts,5,Crystalbeard X,-2
+0,FastCharge,3,Artillery,8
+3,Evade Dist,6,Artillery,-2
+2,Tenderizer,1,Attack,8
+0,Hearing,7,Attack,7
+0,Blunt,4,Attack,6
+1,Pierce Up,3,Attack,4
+0,Crit Element,4,Attack,3
+0,Expert,4,Attack,3
+2,ColdBlooded,2,Attack,2
+3,Guard,6,Attack,-2
+2,Wind Res,10,Boltreaver X,3
 0,TeamLeader,5,Bomb Boost,10
+0,Transporter,6,Botany,7
+1,Tenderizer,6,Bubble,1
+3,Fencing,4,Capturer,-2
+3,Loading,2,Chain Crit,3
+2,Sheathing,1,Charmer,10
+0,Dragon Atk,6,Charmer,10
+2,Ammo Saver,7,Charmer,5
+0,Rec Speed,6,Combo Rate,10
+2,Water Atk,7,Constitution,3
+0,Protection,7,Crit Draw,2
+1,Distance Runner,5,Crit Draw,1
+3,Potential,2,Critical Up,5
+0,Loading,4,Critical Up,5
+0,Evade Dist,5,Critical Up,4
+0,Crit Element,6,Critical Up,3
+0,Bubble,5,Crystalbeard X,3
+0,Prolong SP,7,Crystalbeard X,1
+0,KO,10,Crystalbeard X,1
+3,Guts,5,Crystalbeard X,-2
+2,Sheathe Sharpen,10,Dead Eye,4
+1,Pierce Up,4,Dead Eye,4
+3,Sheathe Sharpen,7,Defense,3
+2,Sheathing,9,Destroyer,5
+0,Hearing,4,Destroyer,4
+2,Rapid Fire,5,Distance Runner,-1
+1,Dead Eye,5,Dragon Atk,13
+1,Guard,4,Dragon Atk,13
+0,Biology,5,Dragon Atk,13
+0,Wind Res,10,Dragon Atk,11
+1,Sheathing,8,Dragon Atk,3
+2,Transporter,5,Dragon Res,-1
+0,Charmer,7,Dreadking,3
+0,Crit Element,6,Dreadqueen X,3
+0,Crit Element,3,Drilltusk,1
+0,Endurance,4,Elderfrost X,2
+0,HotBlooded,7,Evade Dist,4
+3,ColdBlooded,5,Evasion,5
+2,Elemental,7,Evasion,3
+0,KO,6,Evasion,3
+2,Wind Res,8,Evasion,1
+0,Status,4,Expert,10
+0,Heavy Up,4,Expert,10
+0,FastCharge,4,Expert,9
+0,Grinder,4,Expert,8
+0,Ice Res,4,Expert,6
+0,Endurance,1,Expert,5
+0,Ammo Saver,7,Expert,4
+3,Status,7,Expert,-2
+3,Hearing,4,Fencing,3
+3,Light Eater,2,Fencing,2
+0,FastCharge,5,Fire Atk,13
+0,Elemental,3,Fire Atk,12
+0,Loading,5,Fire Atk,11
+0,Biology,7,Fire Atk,10
+3,Crit Element,1,Furor,5
+0,Evasion,6,Gloves Off,3
+0,Chain Crit,5,Grimclaw X,3
+3,Potential,3,Grinder,4
+3,ColdBlooded,5,Grinder,3
+0,Evade Dist,5,Guard,5
+0,Sharpness,5,Handicraft,5
+0,Reload Spd,5,Handicraft,5
+1,Sheathing,6,Handicraft,4
+0,Crit Draw,4,Handicraft,4
+0,Stam Recov,5,Haphazard,9
+0,Guard Up,5,Health,13
+3,Hearing,4,Heavy Up,2
+0,Hearing,7,Heavy Up,1
+1,Evasion,6,Hellblade,1
+3,Vault,6,Hero Shield,-1
+2,FastCharge,5,Hero Shield,-3
+0,Normal Up,6,Ice Atk,13
+0,Tenderizer,5,Ice Atk,10
+0,Recoil,2,Ice Atk,9
+3,Guard,6,Ice Atk,-3
+3,Vault,4,Light Eater,1
+1,KO,9,Loading,3
+3,Stam Recov,4,Maestro,5
+1,Status,7,Maestro,-1
+1,Elemental,4,Mounting,10
+0,Stam Recov,4,Mounting,10
+0,Biology,5,Mounting,10
+0,Bind Res,6,Mounting,6
+3,Sharpness,2,Mounting,5
+0,Guard,7,Mounting,4
+0,Endurance,5,Mycology,5
+3,Stam Recov,6,Mycology,1
+3,Rapid Fire,5,Mycology,-3
+1,Tenderizer,4,Nightcloak,1
+3,Frenzy Res,5,Nightcloak X,2
+0,Recoil,5,Normal Up,4
+1,Bubble,5,Pellet Up,3
+2,Destroyer,6,Pellet Up,-2
+1,Stam Recov,5,Perception,6
+3,Chain Crit,3,Pierce Up,5
+0,Rapid Fire,5,Pierce Up,5
+3,Sharpness,7,Pierce Up,1
+0,Wind Res,6,Protection,10
+0,Sheathing,10,Protection,5
+2,Sheathe Sharpen,2,Punish Draw,5
+1,Sharpness,1,Punish Draw,5
+0,Bomb Boost,4,Ranger,9
+0,Guard Up,4,Rec Level,3
+0,Elemental,7,Recoil,6
+3,Chain Crit,5,Recoil,1
+3,Bubble,5,Reload Spd,5
+3,Pierce Up,6,Reload Spd,-1
+3,Chance,2,Sharpness,6
+0,Punish Draw,5,Sharpness,5
+2,Vault,6,Sharpness,4
+3,Grinder,3,Sharpness,1
+0,Blight Res,4,Sheathing,7
+1,Sheathe Sharpen,6,Sheathing,5
+0,Pellet Up,6,Sheathing,4
+3,Guard Up,3,Sheathing,3
+0,Ice Atk,7,Silverwind,3
+0,Punish Draw,3,Snowbaron X,3
+0,Health,6,Speed Setup,4
+0,Pierce Up,6,Stam Drain,9
+2,Recoil,4,Stam Drain,3
+0,Charmer,7,Stam Recov,5
+0,Prolong SP,6,Stam Recov,4
+3,Ammo Saver,5,Stam Recov,1
+2,Guts,5,Stamina,-2
+1,Normal Up,4,Status,2
+0,Punish Draw,5,Stonefist X,3
+3,Ice Atk,7,Stun,7
+0,Punish Draw,5,Tenderizer,5
+2,Punish Draw,2,Tenderizer,4
+2,Reload Spd,5,Tenderizer,3
+3,Reload Spd,1,Tenderizer,2
+2,Elemental,5,Tenderizer,2
+2,Fire Atk,6,Tenderizer,2
+0,Vault,4,Thunder Atk,13
+0,Tenderizer,6,Thunder Atk,10
+1,Rapid Fire,5,Thunder Atk,5
+2,Status,4,Thunder Atk,4
+3,Crit Draw,5,Thunder Atk,3
+3,Tenderizer,6,Unscathed,-1
+0,Crit Draw,5,Water Atk,13
+0,Evade Dist,4,Water Atk,11
+2,Ice Atk,6,Water Atk,2
+0,Attack,3,Wide-Range,10
+1,Artillery,6,,
+3,Biology,8,,
+1,Blight Res,7,,
+2,Blunt,6,,
+3,Blunt,4,,
 3,Charmer,5,,
+3,Constitution,6,,
+3,Crisis,6,,
+3,Crit Element,6,,
+2,Crit Status,5,,
+1,FastCharge,4,,
+0,Gathering,10,,
+2,Guard Up,6,,
+2,Hearing,7,,
+3,Hearing,6,,
+3,Hero Shield,5,,
+3,KO,5,,
+3,Normal Up,5,,
+3,Pellet Up,6,,
+3,Rapid Fire,4,,
+3,Recoil,4,,
+3,Reload Spd,6,,
+2,Sheathing,10,,
+3,Sheathing,9,,
+0,Sleep,5,,
+3,Status,5,,
+2,Tenderizer,5,,
+0,Transporter,8,,
+3,Unscathed,5,,
+3,Vault,5,,
+3,Hero Shield,4,Fire Atk,10
+3,Hero Shield,4,Artillery,10
+3,Sharpness,3,Handicraft,4
+3,Grinder,4,,
+3,Grinder,3,Sharpness,1
+3,Sheathing,10,,
+3,Sheathe Sharpen,7,Defense,3
+3,Crit Element,6,,
+2,Sheathe Sharpen,10,Dead Eye,4
